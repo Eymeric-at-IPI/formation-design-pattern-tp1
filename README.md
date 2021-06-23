@@ -16,21 +16,6 @@
         - Les **guerriers** doivent accumuler de la **rage**
         - Les **rôdeurs** sont toujours accompagnés d’un **familier** qui possède son propre nom et son propre niveau. ils sont liés à la vie à la mort, si l’un meurt l’autre aussi
 
-```
-+ DataSource
-+ NoneDataSourceDecorator
-+ BaseDataSourceDecorator
-+ EncryptionDataSourceDecorator
-+ CompressionDataSourceDecorator
-
-
-+ StringManipulator
-+ NoneStringManipulateur
-+ BaseStringManipulator
-+ EncryptionStringManipulator
-+ CompressionStringManipulator
-```
-
 ### Exercice Modélisation 2 : 
 
 Tous les personnes ont un **nom** et un **niveau**.
