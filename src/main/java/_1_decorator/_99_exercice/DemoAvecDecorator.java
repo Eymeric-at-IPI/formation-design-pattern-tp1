@@ -8,6 +8,8 @@ public class DemoAvecDecorator {
 
         FileDataSource fileDataSource = new FileDataSource("OutputDemo.txt");
 
-        // TODO
+        DataSource dataSource = new EncryptionDataSourceDecorator(new CompressorDataSourceDecorator(new NoneDataSourceDecorator(fileDataSource)));
+        dataSource.writeData(salaryRecords);
+        System.out.println("# 2 : " + dataSource.readData() + " #");
     }
 }
